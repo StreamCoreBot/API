@@ -58,6 +58,8 @@ jobs:
               run: yarn install
             - name: Build with Next.js
               run: yarn build
+            - name: Copy JSON files to out directory
+              run: cp -r public/json out/
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v4
               with:
