@@ -1,0 +1,29 @@
+{
+    "name": "API",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "CreativeCodeCat",
+    "license": "MIT",
+    "packageManager": "pnpm@10.28.2",
+    "devDependencies": {
+        "@types/node": "^20.19.33",
+        "@types/react": "^18.3.28",
+        "@types/react-dom": "^18.3.7",
+        "eslint": "^8.57.1",
+        "eslint-config-next": "14.0.0",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "next": "14.0.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}
